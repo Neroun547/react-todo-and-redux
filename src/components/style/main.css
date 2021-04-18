@@ -1,0 +1,62 @@
+.wrapper input{
+    width: 200px;
+    margin: 10px;
+    border:none;
+    background-color: transparent;
+    border-bottom: 3px solid #000;
+    font-size: 18px;
+    color: #000;
+}
+
+.wrapper input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+.wrapper button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #07b089;
+    border-radius: 5px; 
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-todo{
+    font-size: 18px;
+    color: #000;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.item-check{
+    font-size: 18px;
+    color: #000;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: line-through black 2px;
+}
+
+
+.item-todo span{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.item-todo span:hover{
+    color: #000;
+    transition: .2s;
+}
