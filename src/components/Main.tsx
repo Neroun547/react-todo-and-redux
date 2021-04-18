@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { RootStateOrAny, useDispatch, useSelector } from 'react-redux';
 import { setItems } from '../store/main-actions';  
-//Style
+// Style
 import styled from 'styled-components';
 import { Button, Input } from './style/main-styled-form';
 import { ListItems, ItemCheck, ItemTodo } from './style/list-items-styled';
@@ -50,7 +50,6 @@ export const Main:React.FC = () => {
   }
   // check item
   const checkItem = (id:number) => {
-      console.log('Check');
     const newItems = items.filter((el:any) => {
         if(el.id === id){
             el.check = !el.check;
